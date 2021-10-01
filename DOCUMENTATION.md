@@ -1,4 +1,3 @@
 # MyTraningApplication
-read documentation
-i`t just library to use keyboard
-project is raw
+I`t just library to use keyboard.
+Project is raw
