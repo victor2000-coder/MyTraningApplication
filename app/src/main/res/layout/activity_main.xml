@@ -1,0 +1,88 @@
+<?xml version="11.0" encoding="UTF-8" standalone="no"?>
+<!--prolog-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <ListView
+        android:id="@+id/outer"
+        android:layout_width="match_parent"
+        android:layout_height="600px"/>
+
+    <ListView
+        android:id="@+id/enter"
+        android:layout_width="match_parent"
+        android:layout_height="350px"
+        android:entries="@array/list"
+        >
+    </ListView>
+    <Button
+        android:id="@+id/btnNextLine"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5px"
+        android:text="@string/next_line_text">
+
+    </Button>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="1px"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1px"
+            android:text="@string/save_text">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnLoad"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1px"
+            android:text="@string/load_text">
+
+        </Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_margin="1px">
+        <Button
+            android:id="@+id/btnDelLine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1px"
+            android:text="@string/back_line_text">
+
+        </Button>
+        <Button
+            android:id="@+id/btnDelSymbol"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1px"
+            android:text="@string/back_space_text">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

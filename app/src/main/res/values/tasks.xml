@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list">
+        <item>DRAW_DOUBLE_FAT_SPIRAL</item>
+        <item>DRAW_TRIPLE_FAT_SPIRAL</item>
+        <item>DRAW_CUSTOM_SPIRAL</item>
+        <item>DRAW_DOUBLE_SPIRAL</item>
+        <item>DRAW_SPIRAL</item>
+        <!--<item>DRAW_FIBONACCI_SPIRAL</item>-->
+        <item>DRAW_DOUBLE_CIRCLE</item>
+        <item>DRAW_DOUBLE_FAT_CIRCLE</item>
+    </string-array>
+</resources>

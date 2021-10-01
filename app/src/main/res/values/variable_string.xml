@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--path to save-->
+    <string name="path_to_save">\src\main\java\com\example\mytraningapplication\info.json</string>
+</resources>

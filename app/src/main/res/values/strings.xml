@@ -1,0 +1,24 @@
+<resources>
+    <!--name of app-->
+    <string name="app_name">MyTraningApplication</string>
+    <!--draw the figures-->
+    <string name="next_line_text">enter</string>
+    <!--encrypt the text-->
+    <string name="encrypt_text">encrypt</string>
+    <!--save the file-->
+    <string name="save_text">save</string>
+    <!--go to encrypt intent-->
+    <string name="load_text">load</string>
+    <!--go to encrypt intent-->
+    <string name="go_encrypt">go to encrypt</string>
+    <!--go to drawing intent-->
+    <string name="go_draw">go to drawing</string>
+    <!--encrypting text title-->
+    <string name="encrypting_text_title">write text to encrypt</string>
+    <!--encrypting text title-->
+    <string name="change_actions_text_title">you can just write</string>
+    <!--encrypting text title-->
+    <string name="back_space_text">del figure</string>
+    <!--encrypting text title-->
+    <string name="back_line_text">del line</string>
+</resources>
